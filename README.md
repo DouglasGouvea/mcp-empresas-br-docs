@@ -84,11 +84,16 @@ trimmed — full version in [`examples/relatorio_completo-petrobras.json`](examp
 
 Endpoint (streamable HTTP): `https://mcp-empresas-br.mcpize.run/mcp`
 
-1. Get an API key at **[mcpize.com/mcp/mcp-empresas-br](https://mcpize.com/mcp/mcp-empresas-br)**.
-   The **free plan includes 100 calls/month**; Pro is US$ 9/month for 1,000 calls.
-2. Send it as `Authorization: Bearer <API key>`.
+The **free plan includes 100 calls/month**; Pro is US$ 9/month for 1,000 calls
+([mcpize.com/mcp/mcp-empresas-br](https://mcpize.com/mcp/mcp-empresas-br)).
 
-Claude Code:
+**OAuth (clients that support it):** paste the URL and sign in with your MCPize
+account when prompted. The endpoint advertises standard MCP OAuth metadata
+(dynamic client registration, PKCE).
+
+**API key:** get one at the page above and send `Authorization: Bearer <API key>`.
+
+Claude Code with an API key:
 
 ```bash
 claude mcp add --transport http empresas-br https://mcp-empresas-br.mcpize.run/mcp \
