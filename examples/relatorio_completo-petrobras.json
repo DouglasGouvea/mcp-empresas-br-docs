@@ -1,0 +1,225 @@
+{
+  "cnpj": "33000167000101",
+  "consultado_em": "2026-10-04T09:39:08-03:00",
+  "fontes": [
+    {
+      "nome": "BrasilAPI (Receita Federal)",
+      "url": "https://brasilapi.com.br/api/cnpj/v1/33000167000101",
+      "consultado_em": "2026-10-03T20:59:34-03:00",
+      "status": "ok",
+      "de_cache": true,
+      "idade_cache_s": 45573
+    },
+    {
+      "nome": "Portal da Transparência – CEIS",
+      "url": "https://api.portaldatransparencia.gov.br/api-de-dados/ceis?codigoSancionado=33000167000101&pagina=1",
+      "consultado_em": "2026-10-04T09:39:07-03:00",
+      "de_cache": true,
+      "idade_cache_s": 45573,
+      "status": "ok"
+    },
+    {
+      "nome": "Portal da Transparência – CNEP",
+      "url": "https://api.portaldatransparencia.gov.br/api-de-dados/cnep?codigoSancionado=33000167000101&pagina=1",
+      "consultado_em": "2026-10-04T09:39:07-03:00",
+      "de_cache": true,
+      "idade_cache_s": 45573,
+      "status": "ok"
+    },
+    {
+      "nome": "Portal da Transparência – CEPIM",
+      "url": "https://api.portaldatransparencia.gov.br/api-de-dados/cepim?cnpjSancionado=33000167000101&pagina=1",
+      "consultado_em": "2026-10-04T09:39:07-03:00",
+      "de_cache": true,
+      "idade_cache_s": 45573,
+      "status": "ok"
+    },
+    {
+      "nome": "Portal da Transparência – Acordos de Leniência",
+      "url": "https://api.portaldatransparencia.gov.br/api-de-dados/acordos-leniencia?cnpjSancionado=33000167000101&pagina=1",
+      "consultado_em": "2026-10-04T09:39:07-03:00",
+      "de_cache": true,
+      "idade_cache_s": 45573,
+      "status": "ok"
+    },
+    {
+      "nome": "Portal da Transparência – Contratos",
+      "url": "https://api.portaldatransparencia.gov.br/api-de-dados/contratos/cpf-cnpj?cpfCnpj=33000167000101&pagina=1",
+      "consultado_em": "2026-10-04T09:39:07-03:00",
+      "de_cache": false,
+      "idade_cache_s": null,
+      "status": "ok"
+    },
+    {
+      "nome": "CVM – Cadastro de Companhias Abertas",
+      "url": "https://dados.cvm.gov.br/dados/CIA_ABERTA/CAD/DADOS/cad_cia_aberta.csv",
+      "consultado_em": "2026-10-03T01:07:52-03:00",
+      "de_cache": false,
+      "idade_cache_s": null,
+      "status": "ok"
+    }
+  ],
+  "dados": {
+    "cadastro": {
+      "razao_social": "PETROLEO BRASILEIRO S A PETROBRAS",
+      "nome_fantasia": "PETROBRAS - EDISE",
+      "situacao_cadastral": "ATIVA",
+      "data_situacao": "2005-11-03",
+      "motivo_situacao": "SEM MOTIVO",
+      "data_inicio_atividade": "1966-09-28",
+      "natureza_juridica": "Sociedade de Economia Mista",
+      "porte": "DEMAIS",
+      "capital_social": 205431960000.0,
+      "cnae_principal": {
+        "codigo": "0600001",
+        "descricao": "Extração de petróleo e gás natural"
+      },
+      "cnaes_secundarios": [
+        {
+          "codigo": "1921700",
+          "descricao": "Fabricação de produtos do refino de petróleo"
+        },
+        {
+          "codigo": "3520401",
+          "descricao": "Produção de gás; processamento de gás natural"
+        },
+        {
+          "codigo": "3520402",
+          "descricao": "Distribuição de combustíveis gasosos por redes urbanas"
+        },
+        {
+          "codigo": "4681801",
+          "descricao": "Comércio atacadista de álcool carburante, biodiesel, gasolina e demais derivados de petróleo, exceto lubrificantes, não realizado por transportador re"
+        },
+        {
+          "codigo": "8630599",
+          "descricao": "Atividades de atenção ambulatorial não especificadas anteriormente"
+        }
+      ],
+      "matriz_filial": "MATRIZ",
+      "uf": "RJ",
+      "municipio": "RIO DE JANEIRO",
+      "endereco": {
+        "logradouro": "AVENIDA REPUBLICA DO CHILE",
+        "numero": "65",
+        "bairro": "CENTRO",
+        "cep": "20031170"
+      },
+      "opcao_simples": null,
+      "opcao_mei": null,
+      "dados_omitidos_lgpd": false
+    },
+    "sancoes": {
+      "ceis": [],
+      "cnep": [],
+      "cepim": [],
+      "acordos_leniencia": [],
+      "total_registros": 0,
+      "truncado": false
+    },
+    "contratos": {
+      "escopo": "Poder Executivo Federal",
+      "total_encontrado": 55,
+      "total_retornado": 2,
+      "possivelmente_mais": false,
+      "contratos": [
+        {
+          "numero": "000002018",
+          "objeto": "CONCESSÃO DE USO DAS ÁREAS A, B, C E D EM FAVOR DA CONCESSIONÁRIA, PARA MANTER INSTALADO O CENTRO DE PESQUISAS E DESENVOLVIMENTO LEOPOLDO A. MIGUEZ DE MELLO, DORAVANTE DENOMINADO CENPES E CENPES II.",
+          "numero_processo": null,
+          "situacao": null,
+          "modalidade": null,
+          "orgao": {
+            "nome": "Universidade Federal do Rio de Janeiro",
+            "sigla": "UFRJ",
+            "cnpj": "33663683000116"
+          },
+          "orgao_superior": {
+            "nome": "Ministério da Educação",
+            "sigla": "MEC"
+          },
+          "unidade_gestora": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+          "data_assinatura": "2018-11-27",
+          "data_publicacao_dou": "2018-12-20",
+          "vigencia_inicio": "2018-11-27",
+          "vigencia_fim": "2068-11-27",
+          "valor_inicial": 857706249.0,
+          "valor_final": 857706249.0,
+          "outro_estabelecimento": false
+        },
+        {
+          "numero": "386712017",
+          "objeto": "PROVIMENTO DE SERV.  DE ENGENHARIA, INST, DESMOBILIZAÇÃO, MANUT E SUP. ÀS OP. DE SISTEMAS SUBMAR. DE EXP E PROD DE HIDROCARBONETOS.",
+          "numero_processo": null,
+          "situacao": "Fechado",
+          "modalidade": null,
+          "orgao": {
+            "nome": "Petrobrás - Holding",
+            "sigla": "PETROBRÁS HOLDING",
+            "cnpj": null
+          },
+          "orgao_superior": {
+            "nome": "Ministério de Minas e Energia",
+            "sigla": "MME"
+          },
+          "unidade_gestora": "ALBERTO PASQUALINI - REFAP S/A",
+          "data_assinatura": "2017-03-24",
+          "data_publicacao_dou": null,
+          "vigencia_inicio": "2017-03-24",
+          "vigencia_fim": "2021-01-20",
+          "valor_inicial": 1.0,
+          "valor_final": 1.0,
+          "outro_estabelecimento": false
+        }
+      ]
+    },
+    "cvm": {
+      "registrada": true,
+      "registros": [
+        {
+          "denominacao_social": "PETRÓLEO BRASILEIRO S.A. - PETROBRAS",
+          "denominacao_comercial": "PETROBRAS",
+          "codigo_cvm": "9512",
+          "situacao": "ATIVO",
+          "data_inicio_situacao": "1977-07-20",
+          "data_registro": "1977-07-20",
+          "data_constituicao": "1953-10-03",
+          "data_cancelamento": null,
+          "motivo_cancelamento": null,
+          "setor_atividade": "Petróleo e Gás",
+          "tipo_mercado": "BALCÃO ORGANIZADO",
+          "categoria_registro": "Categoria A",
+          "situacao_emissor": "FASE OPERACIONAL",
+          "controle_acionario": "ESTATAL HOLDING",
+          "auditor": {
+            "cnpj": "57755217000129",
+            "nome": "KPMG AUDITORES INDEPENDENTES LTDA."
+          }
+        },
+        {
+          "denominacao_social": "PETRÓLEO BRASILEIRO S.A. - PETROBRAS",
+          "denominacao_comercial": "PETROBRAS",
+          "codigo_cvm": "9512",
+          "situacao": "ATIVO",
+          "data_inicio_situacao": "1977-07-20",
+          "data_registro": "1977-07-20",
+          "data_constituicao": "1953-10-03",
+          "data_cancelamento": null,
+          "motivo_cancelamento": null,
+          "setor_atividade": "Petróleo e Gás",
+          "tipo_mercado": "BOLSA",
+          "categoria_registro": "Categoria A",
+          "situacao_emissor": "FASE OPERACIONAL",
+          "controle_acionario": "ESTATAL HOLDING",
+          "auditor": {
+            "cnpj": "57755217000129",
+            "nome": "KPMG AUDITORES INDEPENDENTES LTDA."
+          }
+        }
+      ]
+    },
+    "completo": true,
+    "secoes_com_falha": []
+  },
+  "aviso": "Dados públicos de várias fontes (Receita Federal via terceiros, Portal da Transparência/CGU e CVM), sem garantia de completude ou atualidade. Sanções e contratos cobrem SOMENTE a esfera federal (CEIS, CNEP, CEPIM, acordos de leniência e contratos do Poder Executivo Federal): ausência de registro não prova que não exista em outras esferas ou bases. Não é aconselhamento jurídico ou financeiro. Não inclui dados de pessoas físicas. Sem score, nota ou juízo de risco: a interpretação é de quem consome. Atribuição: Receita Federal do Brasil e CVM (dados.cvm.gov.br, ODbL)."
+}
